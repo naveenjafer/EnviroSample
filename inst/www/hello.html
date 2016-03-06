@@ -18,7 +18,7 @@
 
         //perform the request
         var req = ocpu.rpc("first", {
-          myname : myname
+          url : myname
         }, function(output){
           $("#output").text(output.message);
         });
