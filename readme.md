@@ -25,5 +25,8 @@ To run the app in your local R session:
 
 Future Work
 -----------
-To make the Homepage Dependant on Angular JS. To come up with better and more functionality from openCPU. Possible integrations with google charts to present more beautiful and interactive maps as compared to OpenCPU maps. 
+1) To make the Homepage Dependant on Angular JS. To come up with better and more functionality from openCPU. Possible integrations with google charts to present more beautiful and interactive maps as compared to OpenCPU maps. 
+2) To add the legend to the map.
+3) To implement interactive charts by using a suitable charts API (Mostly Google Charts API)
+4) To extract more useful insights from track analysis in R.
 
