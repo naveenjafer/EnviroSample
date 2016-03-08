@@ -349,6 +349,16 @@ $(document).ready(function(){
     //read the value for 'myname'
     var xaxis= $("#xaxis option:selected").val();
     var yaxis= $("#yaxis option:selected").val();
+  //console.log(xaxis);
+    var xaxisarray=xaxis.split(" ");
+    if(xaxisarray.length>1)
+      xaxis=xaxisarray[0]+'.'+xaxisarray[1];
+    var yaxisarray=yaxis.split(" ");
+    if(yaxisarray.length>1)
+    {
+      yaxis=yaxisarray[0]+'.'+yaxisarray[1];
+    }
+    console.log(yaxis);
     console.log(xaxis);
     var req = $("#plotdiv").rplot("randomplot", {
       x : xaxis,

@@ -1,4 +1,4 @@
-  randomplot <- function(x, y, u){
+  randomplot <- function(x, y){
   url ="https://envirocar.org/api/stable/tracks/56d9dc80e4b0b5e23789124a"
 
 require(rgdal)
